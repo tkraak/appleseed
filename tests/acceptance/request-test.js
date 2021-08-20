@@ -9,5 +9,6 @@ module('Acceptance | request', function (hooks) {
     await visit('/request');
 
     assert.equal(currentURL(), '/request/service');
+    assert.dom('header h1').hasText('Appointments');
   });
 });
