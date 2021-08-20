@@ -20,7 +20,8 @@ module.exports = function (environment) {
     APP: {
       mainMenuItems: {
         index: 'Dashboard',
-        'request.service': 'Appointments',
+        'request.service': 'Request an appointment',
+        'request.location': 'Select a location',
       },
     },
   };
