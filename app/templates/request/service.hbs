@@ -1,2 +1,9 @@
 {{page-title "Request an Appointment"}}
-<h1>Request an appointment</h1>
+
+{{#each this.model as |service|}}
+  <ActionPanel
+    @title={{service.description}}
+    @subTitle={{service.duration}}
+    @handleClick={{this.handleServiceSelect}}
+  />
+{{/each}}

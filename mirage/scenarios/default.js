@@ -1,3 +1,3 @@
 export default function (server) {
-  server.createList('cpt-code', 2);
+  server.createList('cpt-code', 3);
 }
