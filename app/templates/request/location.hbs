@@ -1,1 +1,10 @@
-<h1>Select the location</h1>
+{{page-title "Select a Location"}}
+
+<div class="flex flex-wrap -m-4">
+  {{#each this.model as |location|}}
+    <Card
+      @location={{location}}
+      @handleClick={{this.handleLocationSelect}}
+    />
+  {{/each}}
+</div>
