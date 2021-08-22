@@ -3,6 +3,7 @@ export default function () {
   this.logging = true;
 
   this.get('/cpt-codes');
+  this.get('/offices');
 
   this.passthrough();
 }
