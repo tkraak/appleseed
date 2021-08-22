@@ -1,0 +1,21 @@
+<div class="p-4 md:w-1/2">
+  <div class="h-full bg-white shadow sm:rounded-lg overflow-hidden">
+    <img
+      class="lg:h-48 md:h-36 w-full object-cover object-center"
+      src={{if @location.isVideo "/img/video-office.png" "/img/map.png"}}
+      alt="Video Office"
+    >
+  <div class="p-6">
+    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+      {{if @location.isVideo "Telemedicine Only" "Full Service"}}
+    </h2>
+    <h1 class="title-font text-lg font-medium text-gray-900 mb-3">{{@location.name}}</h1>
+    <p class="leading-relaxed mb-3">{{@location.phone}}</p>
+    </div>
+    <div class="pb-6 mt-5 sm:mt-0 sm:ml-6 sm:flex-shrink-0 sm:flex sm:items-center">
+      <button type="button" {{on "click" @handleClick}} class="inline-flex items-center px-4 py-2 border border-transparent shadow-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:text-sm">
+        Select
+      </button>
+    </div>
+  </div>
+</div>
