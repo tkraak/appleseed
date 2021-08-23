@@ -1,56 +1,10 @@
-# appleseed
+## appleseed
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+- uses [Tailwind CSS](https://tailwindcss.com) and [Tailwind UI](https://tailwindui.com)
+- uses [Ember CLI Mirage](https://www.ember-cli-mirage.com) to mock out backend APIs
+- appointment steps and map are hard-coded for now
+- full test coverage
 
-## Prerequisites
+<img width="1392" alt="appleseed-service" src="https://user-images.githubusercontent.com/1313732/130376242-d8ee60b9-e8db-4ebd-a04c-a445a2d38f9d.png">
+<img width="1392" alt="appleseed-location" src="https://user-images.githubusercontent.com/1313732/130376340-af5a10d9-a419-4091-a489-66f12de3c17c.png">
 
-You will need the following things properly installed on your computer.
-
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* `cd appleseed`
-* `npm install`
-
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint`
-* `npm run lint:fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
