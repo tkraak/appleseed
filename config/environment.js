@@ -18,6 +18,8 @@ module.exports = function (environment) {
     },
 
     APP: {
+      clientPortalBaseUrl: 'some URL',
+      clinicianId: 2,
       mainMenuItems: {
         index: 'Dashboard',
         'request.service': 'Request an appointment',
