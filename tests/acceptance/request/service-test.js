@@ -13,8 +13,7 @@ module('Acceptance | request', function (hooks) {
     await visit('/request/service');
 
     assert.equal(currentURL(), '/request/service');
-    assert.dom('header h1').hasText('Request an appointment');
-    assert.dom('main h3').exists({ count: 3 });
+    assert.dom('header h1').hasText('Select a service');
     assert.dom('main h3').hasText(services.firstObject.description);
 
     await click('main button');

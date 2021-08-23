@@ -14,7 +14,6 @@ module('Acceptance | request/location', function (hooks) {
 
     assert.equal(currentURL(), '/request/location');
     assert.dom('header h1').hasText('Select a location');
-    assert.dom('main h1').exists({ count: 3 });
     assert.dom('main .w-full p').hasText(locations.firstObject.phone);
 
     await click('main button');

@@ -21,8 +21,7 @@ module.exports = function (environment) {
       clientPortalBaseUrl: 'some URL',
       clinicianId: 2,
       mainMenuItems: {
-        index: 'Dashboard',
-        'request.service': 'Request an appointment',
+        'request.service': 'Select a service',
         'request.location': 'Select a location',
       },
     },
